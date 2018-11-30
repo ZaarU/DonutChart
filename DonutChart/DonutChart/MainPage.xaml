@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DonutChart"
+             x:Class="DonutChart.MainPage">
+
+    <StackLayout x:Name="_stackLayout">
+        
+        <!-- Place new controls here -->
+        <Button Text="Welcome to Xamarin.Forms!" 
+               Clicked="Button_Clicked"
+           HorizontalOptions="Center"
+           VerticalOptions="CenterAndExpand" />
+        <Slider x:Name="_slider" ValueChanged="Slider_ValueChanged" Minimum="0.0" Maximum="100.0" />
+    </StackLayout>
+
+</ContentPage>
