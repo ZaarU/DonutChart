@@ -12,7 +12,7 @@ namespace DonutChart
     public partial class MainPage : ContentPage
     {
         private SKCanvasDonutView _sKCanvasview;
-        private const double _canvasViewHeight = 500;
+        private const double _canvasViewHeight = 300;
 
         public MainPage()
         {
@@ -25,7 +25,7 @@ namespace DonutChart
                             ValueLabel = "212",
                             Color = SKColor.Parse("#2c3e50")
                         },
-                        new Entry(248)
+                        new Entry(0)
                         {
                             Label = "Android",
                             ValueLabel = "248",

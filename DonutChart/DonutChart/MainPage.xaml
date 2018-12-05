@@ -7,10 +7,16 @@
     <StackLayout x:Name="_stackLayout">
         
         <!-- Place new controls here -->
+        <local:PicassoImageView x:Name="_picassoImage" HeightRequest="100" >
+            <x:Arguments>
+                <x:String>http://i.imgur.com/DvpvklR.jpg</x:String>
+            </x:Arguments>
+        </local:PicassoImageView>
+        
         <Button Text="Welcome to Xamarin.Forms!" 
                Clicked="Button_Clicked"
            HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+           VerticalOptions="CenterAndExpand" />        
         <Slider x:Name="_slider" ValueChanged="Slider_ValueChanged" Minimum="0.0" Maximum="100.0" />
     </StackLayout>
 
